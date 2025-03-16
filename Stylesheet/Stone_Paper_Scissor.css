@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.topHeader {
+    width: 100%;
+    background-color: #365277;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dateTime p {
+    margin: 5px 0;
+}
+
+/* Game Area */
+.mainBody {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.outputWindow {
+    background-color: #f2f3cb;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#gameTitle {
+    font-size: 22px;
+}
+
+.gameInfo {
+    margin-top: 10px;
+}
+
+#displayScore {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.scoreBox {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+}
+
+#userImage img, #cpuImage img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.choices button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.choices img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.2s;
+}
+
+.choices img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footerContent {
+    width: 100%;
+    background-color: #e4f6f6;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Game Over Popup */
+.result {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.resultContent {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#restartbutton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .choices img {
+        width: 60px;
+        height: 60px;
+    }
+}
