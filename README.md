@@ -1,18 +1,41 @@
-# Stone_Paper_Scissors-Project
-👾 Stone Paper Scissor Game: Master the Basics of Web Development! 👨‍💻
 
-Setup Buttons in HTML:
+### Stone Paper Scissor Game
 
-1.Create button elements with an id corresponding to each choice and add images inside them. Use a common class for styling.
+#### **Project Description**  
+A fun and interactive Stone Paper Scissor game built with React JS. Play against the computer and track your score. Features a simple and engaging UI.
 
-Add Event Listeners in JavaScript:
+#### **README Template**
 
-2. Use querySelectorAll to get all buttons and attach a click event listener to each one. When a button is clicked, get its id to identify the user’s choice.
-   
-Display User Choice:
+# Stone Paper Scissor Game
 
-3.Hint: Update the user-choice div with the image of the user’s selected choice using the id from the clicked button.
+A fun and interactive Stone Paper Scissor game built with React JS. Play against the computer and track your score. Features a simple and engaging UI.
 
-Generate and Display Computer Choice:
+## Features
+- Play against the computer.
+- Track your score and the computer's score.
+- Simple and intuitive user interface.
+- Responsive design for all devices.
 
-4. Randomly select a choice for the computer from an array of options and update the cpu-choice div with the corresponding image.
+## Technologies Used
+- React JS
+- CSS for styling
+- JavaScript for game logic
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/your-username/stone-paper-scissor-game.git
+Install dependencies:
+
+bash
+Copy
+npm install
+Run the app:
+
+bash
+Copy
+npm start
+Contributions
+Contributions are welcome! Open an issue or submit a PR.
+
+License
+This project is licensed under the MIT License.
